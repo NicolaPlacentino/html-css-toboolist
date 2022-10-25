@@ -10,7 +10,11 @@ body{
 }
 
 /* utilities */
-
+.container{
+    background-color: white;
+    width: 50%;
+    margin: 30px auto;
+}
 
 /* generic */
 
