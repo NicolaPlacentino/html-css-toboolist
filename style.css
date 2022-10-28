@@ -17,10 +17,7 @@ body{
     margin: 30px auto;
 }
 
-.checked::before{
-    content: "\2713";
-    color: green;
-    border: 1px solid green;
+li::before{
     border-radius: 50px 50px;
     display: inline-block;
     line-height: 15px;
@@ -29,16 +26,16 @@ body{
     text-align: center;
 }
 
+.checked::before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+}
+
 .crossed::before{
     content: "\2717";
     color: red;
     border: 1px solid red;
-    border-radius: 50px 50px;
-    display: inline-block;
-    line-height: 15px;
-    height: 15px;
-    width: 15px;
-    text-align: center;
 }
 
 .label{
